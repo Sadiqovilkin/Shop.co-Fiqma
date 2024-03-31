@@ -1,0 +1,16 @@
+main{
+    #brands{
+        background-color: $black_color;
+        display: flex;
+        justify-content: space-around;
+        padding: 25px 0;
+        .brand_logo{
+            width: 195px;
+            height: 35px;
+           
+            img{
+                @include Img(contain,center);
+            }
+        }
+    }
+}

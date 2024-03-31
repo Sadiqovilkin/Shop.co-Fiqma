@@ -114,4 +114,21 @@ header nav .nav_icons {
 header nav .nav_icons i {
   font-size: 22px;
   color: #000;
+}
+
+main #brands {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+main #brands .brand_logo {
+  width: 195px;
+  height: 35px;
+}
+main #brands .brand_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }/*# sourceMappingURL=style.css.map */
