@@ -16,6 +16,9 @@ header{
         i{
             color: $white_color;
             font-size: 20px;
+            @media (max-width:769px) {
+                display: none;
+            }
         }
     }
     nav{
@@ -25,6 +28,11 @@ header{
             height: 22px;
             img{
                 @include Img(contain,center);
+            }
+        }
+        .col-4{
+            @media (max-width:769px) {
+                display: none !important;
             }
         }
         ul{
@@ -50,6 +58,9 @@ header{
             input{
                 background-color: transparent;
                 border: none;
+            }
+            @media (max-width:769px) {
+                display: none !important;
             }
         }
         .nav_icons{

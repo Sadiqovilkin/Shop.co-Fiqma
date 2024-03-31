@@ -79,6 +79,11 @@ header .black_heading i {
   color: #fff;
   font-size: 20px;
 }
+@media (max-width: 769px) {
+  header .black_heading i {
+    display: none;
+  }
+}
 header nav {
   padding: 22px 0;
 }
@@ -91,6 +96,11 @@ header nav .logo img {
   height: 100%;
   object-fit: contain;
   object-position: center;
+}
+@media (max-width: 769px) {
+  header nav .col-4 {
+    display: none !important;
+  }
 }
 header nav ul {
   display: flex;
@@ -114,6 +124,11 @@ header nav .nav_search i {
 header nav .nav_search input {
   background-color: transparent;
   border: none;
+}
+@media (max-width: 769px) {
+  header nav .nav_search {
+    display: none !important;
+  }
 }
 header nav .nav_icons {
   gap: 14px;
@@ -367,6 +382,16 @@ footer .footerHeader {
   border-radius: 20px;
   position: absolute;
   transform: translate(6%, -80%);
+}
+@media (max-width: 400px) {
+  footer .footerHeader {
+    padding: 26px 40px;
+    position: static;
+    transform: translate(0px, 0px);
+  }
+  footer .footerHeader h2 {
+    font-size: 24px !important;
+  }
 }
 footer .footerHeader h2 {
   font-size: 45px;
