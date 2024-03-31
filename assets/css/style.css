@@ -54,6 +54,13 @@ table {
   border-spacing: 0;
 }
 
+footer .footer_card .icons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 header .black_heading {
   background-color: #000;
   padding: 9px 0;
@@ -73,7 +80,7 @@ header .black_heading i {
   font-size: 20px;
 }
 header nav {
-  padding: 22px;
+  padding: 22px 0;
 }
 header nav .logo {
   width: 100%;
@@ -272,4 +279,91 @@ main #customerReview .card p, main #customerReview .card header .black_heading p
   font-size: 16px;
   line-height: 22px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  margin-top: 150px;
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+footer .footerHeader {
+  background-color: #000;
+  padding: 36px 64px;
+  border-radius: 20px;
+  position: absolute;
+  transform: translate(6%, -80%);
+}
+footer .footerHeader h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #fff;
+}
+footer .footerHeader .subscripe {
+  gap: 10px;
+}
+footer .footerHeader .subscripe input {
+  padding: 12px 16px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: none;
+}
+footer .footerHeader .subscripe button {
+  padding: 12px 16px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: none;
+}
+footer .footer_card h3 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000;
+}
+footer .footer_card p, footer .footer_card header .black_heading p a, header .black_heading p footer .footer_card a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 25px 0;
+}
+footer .footer_card .icons {
+  gap: 10px;
+}
+footer .footer_card .icons div {
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.202);
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.4s all;
+}
+footer .footer_card .icons div i {
+  font-size: 15px;
+  color: #000;
+  transition: 0.4s all;
+}
+footer .footer_card .icons div:hover {
+  background-color: #000;
+}
+footer .footer_card .icons div:hover i {
+  color: #fff;
+}
+footer .lists {
+  display: flex;
+  flex-direction: column;
+}
+footer .lists .bold_li {
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+footer .lists li {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
