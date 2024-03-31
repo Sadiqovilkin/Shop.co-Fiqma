@@ -123,14 +123,88 @@ header nav .nav_icons i {
   color: #000;
 }
 
+main #banner {
+  padding: 50px 0 0;
+  width: 100%;
+  background-color: #F2F0F1;
+}
+main #banner .sect_text h1 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+}
+@media (max-width: 400px) {
+  main #banner .sect_text h1 {
+    font-size: 40px;
+  }
+}
+main #banner .sect_text .txt {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 20px 0;
+}
+main #banner .sect_text .shop_btn {
+  padding: 16px 54px;
+  border-radius: 25px;
+  color: #F2F0F1;
+  background-color: black;
+  transition: 0.3s linear;
+}
+main #banner .sect_text .shop_btn:hover {
+  color: black;
+  background-color: white;
+}
+main #banner .sect_text .lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  gap: 40px;
+}
+main #banner .sect_text .lists div {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 769px) {
+  main #banner .sect_text .lists {
+    justify-content: center;
+  }
+}
+main #banner .sect_text .lists h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+}
+main #banner .sect_text .lists p, main #banner .sect_text .lists header .black_heading p a, header .black_heading p main #banner .sect_text .lists a {
+  color: rgba(0, 0, 0, 0.662745098);
+}
+main #banner .sect_text .section_img {
+  width: 80%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+main #banner .sect_text .section_img img {
+  width: 100%;
+  height: 280px;
+}
+main #banner .section_img {
+  width: 100%;
+  height: 500px;
+}
+main #banner .section_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
 main #brands {
   background-color: #000;
   display: flex;
   justify-content: space-around;
   padding: 25px 0;
+  flex-wrap: wrap;
 }
 main #brands .brand_logo {
-  width: 195px;
+  width: 15%;
   height: 35px;
 }
 main #brands .brand_logo img {
