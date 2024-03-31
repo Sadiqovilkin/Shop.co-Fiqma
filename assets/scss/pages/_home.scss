@@ -1,79 +1,94 @@
-main{
-    #brands{
+main {
+    #brands {
         background-color: $black_color;
         display: flex;
         justify-content: space-around;
         padding: 25px 0;
-        .brand_logo{
+
+        .brand_logo {
             width: 195px;
             height: 35px;
-           
-            img{
-                @include Img(contain,center);
+
+            img {
+                @include Img(contain, center);
             }
         }
     }
-    #products{
+
+    #products {
         padding: 50px 0;
-        .sect_header{
+
+        .sect_header {
             font-weight: 800;
             font-size: 48px;
             line-height: 57.6px;
             color: $black_color;
             text-transform: uppercase;
         }
-        .product_card{
-            .card_img{
+
+        .product_card {
+            .card_img {
                 width: 100%;
                 height: 300px;
                 border-radius: 15px;
                 overflow: hidden;
-                img{
-                    @include Img(cover,center);
+
+                img {
+                    @include Img(cover, center);
                 }
             }
-            .card_desc{
+
+            .card_desc {
                 padding: 10px 0;
-                h4{
+
+                h4 {
                     font-weight: 800;
                     font-size: 20px;
                     line-height: 27px;
                     color: $black_color;
                     text-transform: capitalize;
                 }
-                .stars{
+
+                .stars {
                     gap: 6px;
                     padding: 9px 0;
-                    i{
+
+                    i {
                         color: $yellow_color;
                         font-size: 18px;
                     }
-                    span{
+
+                    span {
                         font-weight: 400;
                         font-size: 14px;
                         line-height: 19px;
                         color: $black_color;
-                        small{
+
+                        small {
                             opacity: 0.5;
                         }
                     }
                 }
-                .value{
-                    gap: 10px;  
-                    span{
+
+                .value {
+                    gap: 10px;
+
+                    span {
                         font-weight: 700;
                         font-size: 24px;
                         line-height: 32px;
                         color: $black_color;
-                        &:nth-child(2){
+
+                        &:nth-child(2) {
                             opacity: 0.5;
-                            text-decoration: line-through ;
+                            text-decoration: line-through;
                         }
                     }
                 }
             }
         }
-        .viewMoore{
+
+        .viewMoore {
             background-color: transparent;
             border: 1px solid #0000001A;
             font-weight: 500;
@@ -83,8 +98,81 @@ main{
             padding: 16px 54px;
             border-radius: 30px;
             transition: .4s all;
-            &:hover{
+
+            &:hover {
                 background-color: #0000001A;
+            }
+        }
+    }
+
+    #dressStyle {
+        .container {
+            background-color: #f0f0f0;
+            border-radius: 40px;
+            padding-top: 50px;
+
+            .sect_header {
+                font-weight: 800;
+                font-size: 48px;
+                line-height: 57.6px;
+                color: $black_color;
+                text-transform: uppercase;
+            }
+
+            .styleCard {
+                width: 100%;
+                height: 290px;
+                border-radius: 20px;
+                overflow: hidden;
+
+                img {
+                    @include Img(cover, 0 0);
+                }
+
+            }
+        }
+    }
+
+    #customerReview {
+        padding: 60px 0 40px;
+        .sect_header{
+            font-weight: 800;
+                font-size: 48px;
+                line-height: 58px;
+                color: $black_color;
+        }
+        .icons{
+            display: flex;
+            justify-content: end;
+            gap: 5px;
+            i{
+                font-weight: 900;
+                font-size: 20px;
+            }
+        }
+        .card {
+            padding: 28px 32px;
+            .stars {
+                gap: 6px;
+                padding: 9px 0;
+
+                i {
+                    color: $yellow_color;
+                    font-size: 18px;
+                }
+            }
+            h4{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 22px;
+                color: $black_color;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color:#00000099;
+                ;
             }
         }
     }

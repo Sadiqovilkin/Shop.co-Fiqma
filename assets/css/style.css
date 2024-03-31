@@ -207,4 +207,69 @@ main #products .viewMoore {
 }
 main #products .viewMoore:hover {
   background-color: rgba(0, 0, 0, 0.1019607843);
+}
+main #dressStyle .container {
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  padding-top: 50px;
+}
+main #dressStyle .container .sect_header {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #000;
+  text-transform: uppercase;
+}
+main #dressStyle .container .styleCard {
+  width: 100%;
+  height: 290px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+main #dressStyle .container .styleCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+main #customerReview {
+  padding: 60px 0 40px;
+}
+main #customerReview .sect_header {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000;
+}
+main #customerReview .icons {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+main #customerReview .icons i {
+  font-weight: 900;
+  font-size: 20px;
+}
+main #customerReview .card {
+  padding: 28px 32px;
+}
+main #customerReview .card .stars {
+  gap: 6px;
+  padding: 9px 0;
+}
+main #customerReview .card .stars i {
+  color: #FFC633;
+  font-size: 18px;
+}
+main #customerReview .card h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000;
+}
+main #customerReview .card p, main #customerReview .card header .black_heading p a, header .black_heading p main #customerReview .card a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
 }/*# sourceMappingURL=style.css.map */
